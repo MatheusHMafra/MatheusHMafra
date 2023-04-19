@@ -14,10 +14,10 @@ Here are some ideas to get you started:
 -->
 <div>
   <a href="https://github.com/MatheusHMafra">
-     <img align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true"/>
+     <img height="180em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true"/>
   </a>
   <a href="https://github.com/MatheusHMafra">
-     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&layout=compact&langs_count=16&theme=tokyonight"/>
+     <img height="180em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&layout=compact&langs_count=16&theme=tokyonight"/>
   </a>
 </div>
   

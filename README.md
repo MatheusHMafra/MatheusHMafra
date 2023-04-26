@@ -20,5 +20,3 @@ Here are some ideas to get you started:
      <img height="140em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight"/>
   </a>
 </div>
-  
-  ![Snake animation](https://github.com/MatheusHMafra/MatheusHMafra/blob/main/snake.svg)

@@ -14,9 +14,9 @@ Here are some ideas to get you started:
 -->
 <div>
   <a href="https://github.com/MatheusHMafra">
-     <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true"/>
+     <img height="250em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true"/>
   </a>
   <a href="https://github.com/MatheusHMafra">
-     <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight"/>
+     <img height="250em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight"/>
   </a>
 </div>

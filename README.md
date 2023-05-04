@@ -17,6 +17,6 @@ Here are some ideas to get you started:
      <img height="140em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true"/>
   </a>
   <a href="https://github.com/MatheusHMafra">
-     <img height="140em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight"/>
+     <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight"/>
   </a>
 </div>

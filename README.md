@@ -19,5 +19,4 @@ Here are some ideas to get you started:
   <a href="https://github.com/MatheusHMafra">
      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight"/>
   </a>
-https://lucid.app/lucidchart/32bb5475-da19-4acd-a712-78d08bb3a098/edit?viewport_loc=62%2C22%2C1219%2C815%2C0_0&invitationId=inv_552b0bd2-e37f-45e2-802e-50e6331c0890
 </div>

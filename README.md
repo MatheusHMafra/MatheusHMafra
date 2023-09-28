@@ -19,7 +19,11 @@ Here are some ideas to get you started:
   <a href="https://github.com/MatheusHMafra">
      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight"/>
   </a>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=Portfolio&show_owner=true&theme=tokyonight&hide_border=true">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=siteclima&show_owner=true&theme=tokyonight&hide_border=true">
+  <a href="https://github.com/MatheusHMafra/Portfolio">
+     <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=Portfolio&show_owner=true&theme=tokyonight&hide_border=true">
+  </a>
+  <a href="https://github.com/MatheusHMafra/siteclima">
+     <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=siteclima&show_owner=true&theme=tokyonight&hide_border=true">
+  </a>
 </div>
 

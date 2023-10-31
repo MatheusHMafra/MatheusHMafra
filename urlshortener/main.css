@@ -31,9 +31,6 @@ Botão de alternância de tema
 /* Estilize o rótulo que envolve o botão */
 .toggle-button {
     position: relative;
-    width: 60px;
-    height: 30px;
-    background-color: #ccc;
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -45,27 +42,13 @@ Botão de alternância de tema
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #fff;
-    border-radius: 50%;
     top: 2px;
-    left: -16px;
-    transition: left 0.3s, background-color 0.3s;
 }
-
-/* Altere o estilo do rótulo quando o botão estiver marcado (dark) */
-#toggle-dark:checked+.toggle-button {
-    background-color: #333;
-}
-
-/* Mova o botão para a posição "dark" quando o switch estiver marcado */
-#toggle-dark:checked+.toggle-button::before {
-    left: 16px;
-    background-color: #000;
-}
-
 
 /* Defina um estilo para o corpo da página */
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;

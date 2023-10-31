@@ -1,0 +1,122 @@
+html {
+    --background-main: #f0f0f0;
+    --color-main: black;
+    --button-color: #007bff;
+    --button-color-hover: #0056b3;
+    --result-color: #4caf50;
+}
+
+html[data-theme="dark"] {
+    --background-main: #121212;
+    --color-main: lightgrey;
+    --button-color: #033b77;
+    --button-color-hover: #012c5a;
+    --result-color: #245726;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+/*
+Botão de alternância de tema
+*/
+#toggle-dark {
+    display: none;
+}
+
+/* Estilize o rótulo que envolve o botão */
+.toggle-button {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilize o botão de alternância em sua posição inicial (light) */
+.toggle-button::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 2px;
+    left: -16px;
+    transition: left 0.3s, background-color 0.3s;
+}
+
+/* Altere o estilo do rótulo quando o botão estiver marcado (dark) */
+#toggle-dark:checked+.toggle-button {
+    background-color: #333;
+}
+
+/* Mova o botão para a posição "dark" quando o switch estiver marcado */
+#toggle-dark:checked+.toggle-button::before {
+    left: 16px;
+    background-color: #000;
+}
+
+
+/* Defina um estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-main);
+    color: var(--color-main);
+    text-align: center;
+}
+
+/* Estilo para o contêiner principal */
+div {
+    margin-top: 50px;
+}
+
+/* Estilo para a etiqueta */
+label {
+    font-weight: bold;
+}
+
+/* Estilo para o campo de entrada de texto */
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+/* Estilo para o botão */
+button {
+    padding: 5px 10px;
+    background-color: var(--button-color);
+    color: var(--color-main);
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para o botão quando o cursor passa sobre ele */
+button:hover {
+    background-color: var(--button-color-hover);
+}
+
+/* Estilo para o resultado oculto */
+#resultado {
+    display: none;
+    color: var(--result-color);
+}
+
+/* Estilizar o cabeçalho (se houver) */
+h3 {
+    font-size: 20px;
+}
+
+/* Estilizar o título (se houver) */
+title {
+    font-size: 24px;
+    font-weight: bold;
+}

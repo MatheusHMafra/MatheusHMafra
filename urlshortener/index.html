@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title></title>
 </head>
+
 <body>
-    <form>
+    <h1>URL Shortener</h1>
+    <input type="checkbox" name="toggle-dark" id="toggle-dark">
+    <label for="toggle-dark" class="toggle-button"></label>
+    <div>
         <label for="url">URL</label>
         <input type="text" name="url" id="url">
-        <input type="submit">
-    </form>
+        <button id="btn">></button>
+        <h3 style="display: none;" id="resultado"></h3>
+        <h3 id="mensagem"></h3>
+    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>

@@ -41,17 +41,6 @@ function base64UrlEncode(url) {
     return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
-// Função para decodificar Base64 URL-Safe
-function base64UrlDecode(encoded) {
-    // Adicione padding se necessário
-    while (encoded.length % 4 !== 0) {
-        encoded += '=';
-    }
-    // Reverter substituições de caracteres não seguros para URLs
-    encoded = encoded.replace('-', '+').replace('_', '/');
-    return atob(encoded);
-}
-
 var mensagem = document.getElementById("mensagem");
 var resultado = document.getElementById("resultado");
 document.getElementById("btn").addEventListener("click", function () {
@@ -61,17 +50,10 @@ document.getElementById("btn").addEventListener("click", function () {
         url = "?link=" + url;
 
         resultado.style.display = "block";
-        resultado.innerHTML = window.location.href + url;
+        resultado.innerHTML = "https://matheushmafra.github.io/MatheusHMafra/" + url;
 
         mensagem.innerHTML = "Copie o link acima e cole no navegador para testar";
     } else {
         mensagem.innerHTML = "Link inválido (deve conter https:// no começo)";
     }
 });
-
-// Caso entre com ?link=(base64) redirecionar ele
-if (window.location.href.includes('?link=')) {
-    var url = window.location.href.split('?link=')[1];
-    url = base64UrlDecode(url);
-    window.location.href = url;
-}

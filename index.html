@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        // Função para decodificar Base64 URL-Safe
+        function base64UrlDecode(encoded) {
+            // Adicione padding se necessário
+            while (encoded.length % 4 !== 0) {
+                encoded += '=';
+            }
+            // Reverter substituições de caracteres não seguros para URLs
+            encoded = encoded.replace('-', '+').replace('_', '/');
+            return atob(encoded);
+        }
+
+        // Caso entre com ?link=(base64) redirecionar ele
+        if (window.location.href.includes('?link=')) {
+            var url = window.location.href.split('?link=')[1];
+            url = base64UrlDecode(url);
+            window.location.href = url;
+        } else {
+            window.location.href = "https://matheushmafra.github.io/MatheusHMafra/urlshortener/";
+        }
+    </script>
+</body>
+
+</html>

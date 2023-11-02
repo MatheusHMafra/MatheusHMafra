@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title></title>
+    <title>Encurtador de Link</title>
 </head>
 
 <body>
-    <h1>URL Shortener</h1>
+    <h1>Encurtador de Link</h1>
     <input type="checkbox" name="toggle-dark" id="toggle-dark">
     <label for="toggle-dark" class="toggle-button">
         <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
@@ -20,12 +20,13 @@
         </svg>
     </label>
     <div>
-        <label for="url">URL</label>
+        <label for="url">Link</label>
         <input type="text" name="url" id="url">
         <button id="btn">></button>
         <h3 style="display: none;" id="resultado"></h3>
         <h3 id="mensagem"></h3>
     </div>
+    <script src="lzstring.js"></script>
     <script src="main.js"></script>
 </body>
 

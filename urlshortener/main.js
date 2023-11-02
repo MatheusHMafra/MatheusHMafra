@@ -41,18 +41,25 @@ function base64UrlEncode(url) {
     return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
+function minify(base64) {
+    // Substituir https://www. por nada
+    base64 = base64.replace("https://www.", "");
+    return base64;
+}
+
 var mensagem = document.getElementById("mensagem");
 var resultado = document.getElementById("resultado");
 document.getElementById("btn").addEventListener("click", function () {
     var url = document.getElementById("url").value;
     if (url.indexOf("https://") == 0) {
         url = base64UrlEncode(url);
+        url = minify(url);
         url = "?link=" + url;
 
         resultado.style.display = "block";
         resultado.innerHTML = "https://matheushmafra.github.io/MatheusHMafra/" + url;
 
-        mensagem.innerHTML = "Copie o link acima e cole no navegador para testar";
+        mensagem.innerHTML += "Copie o link acima e cole no navegador para testar";
     } else {
         mensagem.innerHTML = "Link inválido (deve conter https:// no começo)";
     }

@@ -4,11 +4,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Portfólio</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://matheushmafra.github.io/cdn-storyteller/bootstrap/css/bootstrap.css">
+    <style>
+        /* Basic styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #f2f2f2;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Main content styles */
+        main {
+            margin: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 
-<body>
+<body id="body">
+    <header>
+        <h1>
+            Matheus Portfólio
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="/urlshortener/">Encurtador de Link</a></li>
+            <li><a href="https://github.com/MatheusHMafra">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section id="sobre">
+            <h2>
+                Sobre mim
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, elit
+                mauris
+                bibendum elit, vel bibendum elit elit vel elit. Sed euismod, velit vel bibendum bibendum, elit mauris
+                bibendum elit, vel bibendum elit elit vel elit.
+            </p>
+        </section>
+
+        <section id="projetos">
+            <h2>
+                Projetos
+            </h2>
+            <ul>
+                <li>
+                    <a href="#">Project 1</a>
+                </li>
+                <li>
+                    <a href="#">Project 2</a>
+                </li>
+                <li>
+                    <a href="#">Project 3</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Matheus</p>
+    </footer>
     <script>
+        //
+        var templateSobre = `
+            <section id="sobre">
+                <h2>
+                    Sobre mim
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel bibendum bibendum, elit
+                    mauris
+                    bibendum elit, vel bibendum elit elit vel elit. Sed euismod, velit vel bibendum bibendum, elit mauris
+                    bibendum elit, vel bibendum elit elit vel elit.
+                </p>
+            </section>
+        `;
+        var templateProjetos = `
+            <section id="projetos">
+                <h2>
+                    Projetos
+                </h2>
+                <ul>
+                    <li>
+                        <a href="#">Project 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Project 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Project 3</a>
+                    </li>
+                </ul>
+            </section>
+        `;
+        var templateContato = `
+            <section id="contato">
+                <h2>Entre em contato</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        `;
+        // Detecta se clicou em algum a e muda a página
+        document.addEventListener('click', function (event) {
+            // Se clicou em um a
+            if (event.target.tagName === 'A') {
+                // Se o href do a começa com #
+                if (event.target.href.includes('#')) {
+                    // Pega o href do a
+                    var url = event.target.href.split('#')[1];
+                    // Muda a página
+                    showMain(url);
+                }
+            }
+        }, false);
+
+        // Detecta se mudou o hash da página e muda a página
+        if (window.location.href.includes('#')) {
+            var url = window.location.href.split('#')[1];
+            showMain(url);
+        }
+
+        // Função para mostrar o template escolhido
+        function showMain(url) {
+            // Modifica a página para apenas mostrar aquele template em main
+            // Bota o começo do url com letra maiúscula e concatena com template
+            var template = "template" + url.charAt(0).toUpperCase() + url.slice(1);
+            // Escolhe qual variavel de template mostrar
+            document.getElementById("main").innerHTML = eval(template);
+        }
+    </script>
+    <script id="scriptUrl">
         // Função para decodificar Base64 URL-Safe
         function base64UrlDecode(encoded) {
             // Adicione padding se necessário
@@ -28,13 +233,15 @@
 
         // Caso entre com ?link=(base64) redirecionar ele
         if (window.location.href.includes('?link=')) {
+            // Remove o body e adiciona uma mensagem de redirecionamento
+            document.body.innerHTML = "<h1>Redirecionando...</h1>";
             var url = window.location.href.split('?link=')[1];
             url = base64UrlDecode(url);
             url = unminify(url);
-            document.title = "Redirecting to " + url;
+            document.title = "Redirecionando à " + url;
             window.location.href = url;
         } else {
-            window.location.href = "https://matheushmafra.github.io/MatheusHMafra/urlshortener/";
+            document.getElementById("scriptUrl").remove();
         }
     </script>
 </body>

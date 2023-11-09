@@ -225,19 +225,12 @@
             return atob(encoded);
         }
 
-        // Função para desminificar
-        function unminify(base64) {
-            base64 = "https://www." + base64
-            return base64;
-        }
-
         // Caso entre com ?link=(base64) redirecionar ele
         if (window.location.href.includes('?link=')) {
             // Remove o body e adiciona uma mensagem de redirecionamento
             document.body.innerHTML = "<h1>Redirecionando...</h1>";
             var url = window.location.href.split('?link=')[1];
             url = base64UrlDecode(url);
-            url = unminify(url);
             document.title = "Redirecionando à " + url;
             window.location.href = url;
         } else {

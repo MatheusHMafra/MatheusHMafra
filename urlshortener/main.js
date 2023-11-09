@@ -28,6 +28,35 @@ const changeThemeToLight = () => {
 let theme = localStorage.getItem('data-theme');
 if (theme == 'dark') changeThemeToDark();
 
+//  URL da página, transforma adequadamente
+var pageLink = window.location.href;
+var link = pageLink.split('/');
+var pageLink = link[0] + "//" + link[2] + "/index.html";
+
+// Caso entre com ?api= no link
+if (window.location.href.includes('?api=')) {
+    // Pegar link
+    var json;
+    var url = window.location.href.split('?api=')[1];
+    if (url.indexOf("https://") == 0) {
+        url = base64UrlEncode(url);
+        url = minify(url);
+        url = "?link=" + url;
+    } else {
+        json = {
+            "status": "fail",
+            "url": "Link inválido (deve conter https:// no começo)"
+        }
+        document.body.innerHTML = JSON.stringify(json);
+    }
+
+    json = {
+        "status": "success",
+        "url": pageLink + url
+    }
+    document.body.innerHTML = JSON.stringify(json);
+}
+
 /*
 Diminuir url:
 1) Converter url para base64 caso se o link conter https:// no começo
@@ -49,18 +78,20 @@ function minify(base64) {
 
 var mensagem = document.getElementById("mensagem");
 var resultado = document.getElementById("resultado");
-document.getElementById("btn").addEventListener("click", function () {
-    var url = document.getElementById("url").value;
-    if (url.indexOf("https://") == 0) {
-        url = base64UrlEncode(url);
-        url = minify(url);
-        url = "?link=" + url;
+if (!window.location.href.includes('?api=')) {
+    document.getElementById("btn").addEventListener("click", function () {
+        var url = document.getElementById("url").value;
+        if (url.indexOf("https://") == 0) {
+            url = base64UrlEncode(url);
+            url = minify(url);
+            url = "?link=" + url;
 
-        resultado.style.display = "block";
-        resultado.innerHTML = "https://matheushmafra.github.io/MatheusHMafra/" + url;
+            resultado.style.display = "block";
+            resultado.innerHTML = pageLink + url;
 
-        mensagem.innerHTML += "Copie o link acima e cole no navegador para testar";
-    } else {
-        mensagem.innerHTML = "Link inválido (deve conter https:// no começo)";
-    }
-});
+            mensagem.innerHTML += "Copie o link acima e cole no navegador para testar";
+        } else {
+            mensagem.innerHTML = "Link inválido (deve conter https:// no começo)";
+        }
+    });
+}

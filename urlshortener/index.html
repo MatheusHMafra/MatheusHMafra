@@ -26,8 +26,24 @@
         <h3 style="display: none;" id="resultado"></h3>
         <h3 id="mensagem"></h3>
     </div>
-    <script src="lzstring.js"></script>
+    <div>
+        <h1>API</h1>
+        <p>
+            Possível uso:
+        </p>
+        <p id="pagina">
+
+        </p>
+    </div>
     <script src="main.js"></script>
+    <script>
+        if (!window.location.href.includes('?api=')) {
+            var url = window.location.href;
+            var url = url.split("/");
+            var url = url[0] + "//" + url[2] + "/urlshortener/index.html?api=(Link a ser encurtado)";
+            document.getElementById("pagina").innerHTML = url;
+        }
+    </script>
 </body>
 
 </html>

@@ -29,8 +29,8 @@ Here are some ideas to get you started:
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=siteclima&show_owner=true&theme=tokyonight&hide_border=true">
   </a>
   <br>
-  <a href="https://github.com/MatheusHMafra/Adivinhar-o-Numero">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=Adivinhar-o-Numero&show_owner=true&theme=tokyonight&hide_border=true">
+  <a href="https://github.com/MatheusHMafra/Twitch-Integration">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=Twitch-Integration&show_owner=true&theme=tokyonight&hide_border=true">
   </a>
   <a href="https://github.com/MatheusHMafra/pespective-generator">
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=pespective-generator&show_owner=true&theme=tokyonight&hide_border=true">

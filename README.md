@@ -32,12 +32,6 @@ Here are some ideas to get you started:
   <a href="https://github.com/MatheusHMafra/Twitch-Integration">
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=Twitch-Integration&show_owner=true&theme=tokyonight&hide_border=true">
   </a>
-  <a href="https://github.com/MatheusHMafra/pespective-generator">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=pespective-generator&show_owner=true&theme=tokyonight&hide_border=true">
-  </a>
-  <a href="https://github.com/MatheusHMafra/Mastermind">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=Mastermind&show_owner=true&theme=tokyonight&hide_border=true">
-  </a>
   <a href="https://github.com/MatheusHMafra/valorant-website">
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=valorant-website&show_owner=true&theme=tokyonight&hide_border=true">
   </a>

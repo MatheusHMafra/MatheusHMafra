@@ -4,7 +4,7 @@ https://codepen.io/ifthencreate/pens/showcase
 **MatheusHMafra/MatheusHMafra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 <h1 align="center">Olá 👋, Eu Sou Matheus</h1>
-<h3 align="center">Um desenvolvedor</h3>
+<h3 align="center">Um adolescente que gosta de progamar</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=matheushmafra&label=Profile%20views&color=0e75b6&style=flat" alt="matheushmafra" /> </p>
 

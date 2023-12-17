@@ -8,7 +8,7 @@ https://codepen.io/ifthencreate/pens/showcase
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=matheushmafra&label=Profile%20views&color=0e75b6&style=flat" alt="matheushmafra" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=matheushmafra" alt="matheushmafra" /></a> </p>
+<p align="left"><img src="https://github-profile-trophy.vercel.app/?username=matheushmafra&theme=tokyonight" alt="matheushmafra" /> </p>
 
 - 🔭 Estou desenvolvendo **The StoryTeller**
 
@@ -19,10 +19,10 @@ https://codepen.io/ifthencreate/pens/showcase
 
 <div>
   <a href="https://github.com/MatheusHMafra">
-      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true&hide_border=true""/>
+      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true&hide_border=true"/>
   </a>
   <a href="https://github.com/MatheusHMafra">
-      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight&hide_border=true""/>
+      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight&hide_border=true"/>
   </a>
   <br><br>
   <a href="https://github.com/MatheusHMafra/MatheusHMafra">

@@ -22,7 +22,7 @@ https://codepen.io/ifthencreate/pens/showcase
     </a>
     <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
         <img src="https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png"
-            alt="flask" width="140" height="40" />
+            alt="flask" width="120" height="40" />
     </a>
     <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"

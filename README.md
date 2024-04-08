@@ -10,9 +10,9 @@ https://codepen.io/ifthencreate/pens/showcase
 
 <p align="left"><img src="https://github-profile-trophy.vercel.app/?username=matheushmafra&theme=tokyonight" alt="matheushmafra" /> </p>
 
-- 🔭 Estou desenvolvendo **The StoryTeller**
+<!-- 🔭 Estou desenvolvendo **The StoryTeller**-->
 
-- 🌱 Estou aprendendo **PHP, JS, HTML e PYTHON**
+- 🌱 Estou aprendendo **PYTHON**
 
 <h3 align="left">Linguagens e Ferramentas:</h3>
 <p align="left">

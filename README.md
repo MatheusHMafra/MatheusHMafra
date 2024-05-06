@@ -12,7 +12,7 @@ https://codepen.io/ifthencreate/pens/showcase
 
 <!-- 🔭 Estou desenvolvendo **The StoryTeller**-->
 
-- 🌱 Estou aprendendo **PYTHON**
+- 🌱 Estou aprendendo **PYTHON** e **JAVA**
 
 <h3 align="left">Linguagens e Ferramentas:</h3>
 <p align="left">

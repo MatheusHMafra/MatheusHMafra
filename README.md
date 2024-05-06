@@ -8,10 +8,6 @@ https://codepen.io/ifthencreate/pens/showcase
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=matheushmafra&label=Profile%20views&color=0e75b6&style=flat" alt="matheushmafra" /> </p>
 
-<p align="left"><img src="https://github-profile-trophy.vercel.app/?username=matheushmafra&theme=tokyonight" alt="matheushmafra" /> </p>
-
-<!-- 🔭 Estou desenvolvendo **The StoryTeller**-->
-
 - 🌱 Estou aprendendo **PYTHON** e **JAVA**
 
 <h3 align="left">Linguagens e Ferramentas:</h3>

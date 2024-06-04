@@ -4,17 +4,9 @@
 <h1 align="center">Olá 👋, Eu Sou Matheus</h1>
 <h3 align="center">Alguem que gosta de progamar</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=matheushmafra&label=Profile%20views&color=0e75b6&style=flat" alt="matheushmafra" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=matheushmafra&label=Profile%20views&color=0e75b6&style=flat" alt="matheushmafra"/> </p>
 
-- 🌱 Estou aprendendo **PYTHON** e **JAVA**
-
-<p align="center" >
-	<picture>
-	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MatheusHMafra/MatheusHMafra/output-3d-contrib/night.svg" />
-	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MatheusHMafra/MatheusHMafra/output-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/MatheusHMafra/MatheusHMafra/output-3d-contrib/day.svg" />
-	</picture>
-</p>
+- 🌱 Estou aprendendo **PYTHON**
 
 <div>
   <a href="https://github.com/MatheusHMafra">

@@ -8,13 +8,5 @@
 
 - 🌱 Estou aprendendo **PYTHON**
 
-<div>
-  <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true&hide_border=true"/>
-  <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight&hide_border=true"/>
-  <br><br>
-  <img lenght src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=MatheusHMafra&show_owner=true&theme=tokyonight&hide_border=true">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=siteclima&show_owner=true&theme=tokyonight&hide_border=true">
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=Twitch-Integration&show_owner=true&theme=tokyonight&hide_border=true">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=valorant-website&show_owner=true&theme=tokyonight&hide_border=true">
-</div>
+<img height="220em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true&hide_border=true"/>
+<img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight&hide_border=true"/>

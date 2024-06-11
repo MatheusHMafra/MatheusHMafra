@@ -9,12 +9,8 @@
 - 🌱 Estou aprendendo **PYTHON**
 
 <div>
-  <a href="https://github.com/MatheusHMafra">
-      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true&hide_border=true"/>
-  </a>
-  <a href="https://github.com/MatheusHMafra">
-      <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight&hide_border=true"/>
-  </a>
+  <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api?username=matheushmafra&show_icons=true&theme=tokyonight&count_private=true&hide_border=true"/>
+  <img height="220em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheushmafra&langs_count=16&theme=tokyonight&hide_border=true"/>
   <br><br>
   <a href="https://github.com/MatheusHMafra/MatheusHMafra">
       <img lenght src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusHMafra&repo=MatheusHMafra&show_owner=true&theme=tokyonight&hide_border=true">

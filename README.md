@@ -1,5 +1,3 @@
-# Olá 👋, Eu Sou Matheus
-
 Bem vindo ao meu perfil do GitHub! 🌟
 
 ## Status do GitHub

@@ -70,16 +70,6 @@ Gosto de transformar integrações complexas em **APIs simples e unificadas**, c
 
 ---
 
-## GitHub (optional widgets)
-> If you decide to keep these, they work best when reliably hosted/available.
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MatheusHMafra&show_icons=true&theme=transparent&count_private=true&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusHMafra&layout=compact&langs_count=16&theme=transparent&hide_border=true" height="160" />
-</p>
-
----
-
 ## Trophies
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=MatheusHMafra&theme=darkhub&no-frame=true&margin-w=8&margin-h=8&column=6" />

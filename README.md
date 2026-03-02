@@ -60,20 +60,10 @@ Gosto de transformar integrações complexas em **APIs simples e unificadas**, c
 - 🇧🇷 Interface and docs in Portuguese
 
 **URL:** https://nebulaapi.app  
-**Repository:** Private
 
 ### Stella Bot — Multifunctional Discord bot
 **EN:** A multifunctional Discord bot focused on a chatbot experience, with moderation tools and extra utilities.  
 **PT-BR:** Um bot multifuncional para Discord com foco em chatbot, além de moderação e outras utilidades.
-
-**Repository:** Private
-
----
-
-## Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MatheusHMafra&theme=darkhub&no-frame=true&margin-w=8&margin-h=8&column=6" />
-</p>
 
 ---
 

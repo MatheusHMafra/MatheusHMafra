@@ -47,11 +47,10 @@ Gosto de transformar integrações complexas em **APIs simples e unificadas**, c
 ## Featured projects (private repos)
 
 ### NebulaAPI — Unified endpoints for AI + Minecraft (BR)
-**EN:** NebulaAPI is a free, public Brazilian API offering unified endpoints for **AI and Minecraft**, powered by **Pollinations.ai**.  
-**PT-BR:** NebulaAPI é uma API pública brasileira gratuita com endpoints unificados para **IA e Minecraft**, usando **Pollinations.ai** como backend de IA.
+**EN:** NebulaAPI is a free, public Brazilian API offering unified endpoints for **Roblox and Minecraft**.  
+**PT-BR:** NebulaAPI é uma API pública brasileira gratuita com endpoints unificados para **Roblox e Minecraft**.
 
 **Highlights**
-- 🤖 **AI**: text + image generation (Pollinations; Mistral/Flux focus)
 - 🎮 **Minecraft**: skin rendering, server status
 - 🎮 **Roblox**: user headshot proxy (fixes Discord embed issues)
 - 💬 **Discord**: webhook proxy for Roblox (bypasses User-Agent restrictions)
